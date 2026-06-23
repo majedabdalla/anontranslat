@@ -30,10 +30,6 @@ from typing import Optional
 #   "Receiver", "Created" without weakening the structural check (the
 #   emoji markers themselves are case-less, so this is safe).
 _LOG_PATTERN = re.compile(
-    r"📢\s*Room\s*#\S+\s*"
-    r"👤\s*Sender:.*?"
-    r"👥\s*Receiver:.*?"
-    r"Room\s*Created:.*?"
     r"💬\s*Message:\s*(?P<message>.+)",
     re.DOTALL | re.IGNORECASE,
 )
