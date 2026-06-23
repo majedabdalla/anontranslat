@@ -1,0 +1,9 @@
+# Async Telegram bot framework (v20+ async API: Application, ContextTypes, etc.)
+python-telegram-bot>=21.0
+
+# Official Google Gen AI SDK (current/unified SDK -- NOT the legacy
+# 'google-generativeai' package). Provides the async client.aio interface.
+google-genai>=1.2.0
+
+# Loads TELEGRAM_BOT_TOKEN / GEMINI_API_KEY / etc. from a local .env file.
+python-dotenv>=1.0.0
